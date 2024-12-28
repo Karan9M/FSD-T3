@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Lists Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-4">
+    <h1 class="text-center">Bootstrap Lists</h1>
+    <p class="text-center">This example demonstrates how to style lists using Bootstrap classes.</p>
+
+    <!-- Unordered List -->
+    <h3>1. Unordered List with Custom Styles</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Item 1</li>
+      <li class="list-group-item">Item 2</li>
+      <li class="list-group-item">Item 3</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h3 class="mt-4">2. Ordered List with Borders</h3>
+    <ol class="list-group">
+      <li class="list-group-item">First</li>
+      <li class="list-group-item">Second</li>
+      <li class="list-group-item">Third</li>
+    </ol>
+
+    <!-- Inline List -->
+    <h3 class="mt-4">3. Inline List</h3>
+    <ul class="list-inline">
+      <li class="list-inline-item bg-primary text-white p-2">Item 1</li>
+      <li class="list-inline-item bg-success text-white p-2">Item 2</li>
+      <li class="list-inline-item bg-danger text-white p-2">Item 3</li>
+    </ul>
+
+    <!-- Responsive List -->
+    <h3 class="mt-4">4. Responsive Inline List</h3>
+    <ul class="list-group list-group-horizontal-md">
+      <li class="list-group-item">Responsive Item 1</li>
+      <li class="list-group-item">Responsive Item 2</li>
+      <li class="list-group-item">Responsive Item 3</li>
+    </ul>
+    <p class="text-muted">* Stacks vertically on small devices, aligns horizontally on medium and larger screens.</p>
+
+    <!-- List with Badges -->
+    <h3 class="mt-4">5. List with Badges</h3>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Notifications
+        <span class="badge bg-primary rounded-pill">4</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Messages
+        <span class="badge bg-success rounded-pill">8</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Tasks
+        <span class="badge bg-danger rounded-pill">2</span>
+      </li>
+    </ul>
+
+    <!-- Nested List -->
+    <h3 class="mt-4">6. Nested List</h3>
+    <ul class="list-group">
+      <li class="list-group-item">
+        Parent Item 1
+        <ul class="list-group mt-2">
+          <li class="list-group-item">Child Item 1.1</li>
+          <li class="list-group-item">Child Item 1.2</li>
+        </ul>
+      </li>
+      <li class="list-group-item">Parent Item 2</li>
+    </ul>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

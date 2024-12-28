@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Scrollspy Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="100" tabindex="0">
+
+  <nav id="navbar-example" class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Scrollspy Example</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#section1">Section 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Section 3</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container" style="margin-top: 80px;">
+    <h1>Bootstrap Scrollspy</h1>
+    <p>Scrollspy automatically updates the active state of navigation items based on the section currently visible in the viewport. Scroll down to see it in action!</p>
+
+    <div id="section1" class="py-5 bg-primary text-white" style="height: 600px;">
+      <h2>Section 1</h2>
+      <p>This is the first section. Scroll down to navigate through other sections.</p>
+    </div>
+
+    <div id="section2" class="py-5 bg-success text-white" style="height: 600px;">
+      <h2>Section 2</h2>
+      <p>This is the second section. Scroll up or down to navigate through other sections.</p>
+    </div>
+
+    <div id="section3" class="py-5 bg-danger text-white" style="height: 600px;">
+      <h2>Section 3</h2>
+      <p>This is the third section. Scroll up to navigate back to the previous sections.</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
